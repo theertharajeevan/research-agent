@@ -1,0 +1,28 @@
+# Environment - NEVER commit this
+.env
+*.env
+ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+ 
+# Node
+node_modules/
+frontend-react/node_modules/
+frontend-react/build/
+ 
+# Docker
+*.log
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# IDE
+.vscode/
+.idea/
+ 
